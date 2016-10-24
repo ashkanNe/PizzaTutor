@@ -1,0 +1,256 @@
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 18px;
+   font-family: "Arial Black", Gadget, sans-serif;
+ }
+
+    body {
+      background-color: #CC0000;
+    }
+    h1, p {
+      color: #FFFF00;
+    }
+   header {
+      background-color:#FF4444; 
+    }
+  h2 {
+      color: white;
+    }
+h2 {
+      font-family: "Arial Black", Gadget, sans-serif;
+    }
+    header {
+  border-radius: 10px;
+  border: 3px solid #FF4444;
+    }
+    a:link {
+    color: #FFFF00;
+}
+
+/* visited link */
+a:visited {
+    color: #FFFF00;
+}
+
+/* mouse over link */
+a:hover {
+    color: #CC0000;
+}
+
+/* selected link */
+a:active {
+    color: black;
+}
+    form {
+    width: 300px;
+    margin: 0 auto;
+}
+       p {
+      margin-left: 100px;
+      margin-right: 100px;
+    }
+    .button {
+  background: none repeat scroll 0 0 #075482;
+    border: medium none;
+    color: #FFFF00;
+    cursor: pointer;
+    margin-bottom: 26px;
+    padding: 8px;
+    border-color: #FFFF00;
+    border-style: ridge;
+    background-color: #FF4444;
+}
+      
+   /*PIZZA*/   
+      body{
+  background-color:#CC0000;
+}
+h1{
+  text-align:center;
+}
+h1 a{
+  color:#fff;
+  text-decoration:none;
+  font-family:'Myriad Pro';
+  font-size:26px;
+  position:relative;
+}
+h1 a:after{
+  content:'@cobaimelan';  
+  font-size:11px;
+  position:absolute;
+  top:30px;
+  left:20px;
+}
+.box{
+  width:83px;
+  height:83px;
+  background-color:#FF4444;
+  border-radius:3px;
+  margin:15px auto;
+  position:relative;
+}
+.head{
+  width:60px;
+  height:15px;
+  border-top-left-radius:600%;
+  border-top-right-radius:600%;
+  background-color:#f1a13a;
+  position:relative;
+  top:8px;
+  left:12px;
+  border-bottom:solid 4px #d6851d;
+   z-index:4;
+}
+.head:after{
+  content:'';
+  width:60px;
+  height:20px;
+  border-radius:100%;
+  background-color:#dd6053;
+  position:absolute;
+  top:5px; left:0;
+  z-index:3;
+}
+.bottom{
+width: 0px;
+height: 0px;
+border-style: solid;
+border-width: 50px 30px 0 28px;
+border-color: #ffebc1 transparent transparent transparent;
+  z-index:5;
+  position:absolute;
+  left:13px; top:20px;
+}
+.bottom:before{
+  content:'';
+  width:55px;
+  height:20px;
+  border-radius:100%;
+  background-color:#ffebc1;
+  border-top:solid 2px #d6851d;
+  position:absolute;
+  top:-59px; left:-26px;
+}
+.bla{
+  width:14px;
+  height:13px;
+  border-radius:100%;
+  background-color:#dd6053;
+  position:absolute;
+  top:-45px; left:-11px;
+  text-indent:-99999px;
+}
+.bla:before{
+  content:'';
+  width:7px;
+  height:7px;
+  border-radius:100%;
+  background-color:#dd6053;
+  position:absolute;
+  top:-3px;
+  left:20px;
+}
+.bla:after{
+  content:'';
+  width:5px;
+  height:5px;
+  border-radius:100%;
+  background-color:#dd6053;
+  position:absolute;
+  top:17px;
+  left:15px;
+}
+
+.bottom2{
+width: 0px;
+height: 0px;
+border-style: solid;
+border-width: 53px 30px 0 29px;
+border-color: #c7574b transparent transparent transparent;
+  z-index:2;
+  position:absolute;
+  left:12.7px; top:20px;
+}
+@import url(http://fonts.googleapis.com/css?family=Righteous);
+
+div {
+  width: 100px;
+  height: 100px;
+  background: #666;
+  position: absolute;
+  top: 50px;
+  left: 0; right: 0;
+  margin: auto;
+  animation: rotateIt1 4s infinite;
+}
+div:before, div:after  {
+  content: "";
+  display: block;
+  position: absolute;
+  top:0; left:0; right: 0; bottom: 0;
+  margin: auto;
+}
+div:before {
+  width: 80px;
+  height: 80px;
+  background: #777;
+  animation: rotateIt2 4s infinite;
+}
+div:after {
+  width: 60px;
+  height: 60px;
+  background: #888;
+  animation: rotateIt3 4s infinite;
+}
+span {
+  display: block;
+  position: absolute;
+  height: 40px;
+  width: 200px;
+  font-size: 40px;
+  font-family: 'Righteous', cursive;
+  text-align: center;
+  top: 190px; left: 0; right: 0;
+  margin: auto;
+  z-index: -1;
+}
+span:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 110%;
+  height: 150%;
+  background: #fff;
+  border-radius: 50%;
+  top: -5px;
+  animation: textShow 4s infinite;
+}
+@keyframes rotateIt1 {
+  50% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotateIt2 {
+    50% {
+      transform: rotate(450deg);
+      border-radius: 50%;
+    }
+}
+@keyframes rotateIt3 {
+    50% {
+      transform: rotate(540deg);
+    }
+}
+@keyframes textShow {
+    50% {
+      top: -60px;
+    }
+}
